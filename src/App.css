@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img {
+  width: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.restaurant {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 30px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.restaurant img {
+  width: 350px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  background-color: #F3F5F5;
+  display: flex;
+  justify-content:center;
+  gap: 15px;
 }
+
+.categories {
+  width: 800px;
+  /* margin: 0 auto; */
+    
+}
+
+.category {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.meal {
+  width: 350px;
+  height: 160px;
+  background-color: white;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.meal :hover {
+  cursor: pointer;
+}
+
+.meal img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.description {
+  height: 98px;
+  overflow: hidden;
+  margin-bottom: 5px;
+
+}
+
+.cart {
+  background-color: white;
+}
+
+.cart-detail {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
